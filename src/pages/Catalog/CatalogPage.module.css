@@ -1,0 +1,39 @@
+.catalog {
+  padding: 40px 0 80px;
+  background-color: #f7f7fb;
+}
+
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 29px;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.loadMore {
+  padding: 12px 44px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3470ff;
+  border-radius: 12px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.loadMore:hover {
+  background-color: #0b44cd;
+}

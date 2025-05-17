@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 180px;
+}
+
+.groupInline {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 240px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #121417;
+}
+
+.select,
+.input {
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid #cbd5e1;
+  background-color: #f7f7fb;
+  font-size: 14px;
+}
+
+.range {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  align-self: flex-end;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #3470ff;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0b44cd;
+}
